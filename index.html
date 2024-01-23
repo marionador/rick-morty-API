@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/_css/index.css">
+    <link rel="stylesheet" href="assets/_css/icons.css">
+    <link rel="shortcut icon" href="assets/rick.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Source+Code+Pro&display=swap" rel="stylesheet"/>
+    <title>API</title>
+</head>
+<body>
+    <h1>Rick & Morty API</h1>
+
+    <button id="darkMode">Dark Mode</button>
+
+    <div id="containerSearch">
+        <form action="" class="search-bar">
+            <input type="text" id="searchInput" class="bar" placeholder="Buscar en nuestro catálogo">
+            <ion-icon name="search-outline" id="lupa"></ion-icon>
+        </form>
+    </div> 
+    
+    <h2 id="totalCount"></h2>
+
+    <a id="changePage" href="#pagination">Change Page</a>
+
+    <div id="cardsContainer"></div>
+
+    <div id="pagination"></div>
+
+    <script src="assets/_js/JQuery/jquery-3.7.1.min.js" type="text/javascript"></script>
+    <script src="assets/_js/r&mAPI.js" type="text/javascript"></script>
+</body>
+</html>
